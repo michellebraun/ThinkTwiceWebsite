@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-dom';
+import Navigation from './components/Navigation';
+import About from './components/Pages/About';
+import Team from './components/Pages/Team';
+import CategoryInfo from './components/Pages/CategoryInfo';
+import RankingInfo from './components/Pages/RankingInfo';
+import Sustainability from './components/Pages/Sustainability';
+import Contact from './components/Pages/Contact';
+import Donate from './components/Pages/Donate';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+      <Router basename="/">
+        <Switch>
+        <Route exact path="/">
+          <Redirect to="/about" />
+        </Route>
+          <Route path="/about"><About /></Route>
+          <Route path="/team"><Team /></Route>
+          <Route path="/categoryInfo"><CategoryInfo /></Route>
+          <Route path="/rankingInfo"><RankingInfo /></Route>
+          <Route path="/sustainbility"><Sustainability /></Route>
+          <Route path="/contact"><Contact /></Route>
+          <Route path="/donate"><Donate /></Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
