@@ -23,7 +23,7 @@ function App() {
           <Route path="/team"><Team /></Route>
           <Route path="/categoryInfo"><CategoryInfo /></Route>
           <Route path="/rankingInfo"><RankingInfo /></Route>
-          <Route path="/sustainbility"><Sustainability /></Route>
+          <Route path="/sustainability"><Sustainability /></Route>
           <Route path="/contact"><Contact /></Route>
           <Route path="/donate"><Donate /></Route>
         </Switch>
