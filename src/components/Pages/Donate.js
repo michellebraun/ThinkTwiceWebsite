@@ -9,9 +9,7 @@ function Donate() {
       <Box className='pageHeading'>
         Donate
       </Box>
-      <Box>
-        A lot of text...........
-      </Box>
+      <p className='bodyText'>We appreciate you wanting to provide us with some funding. We are in the process of setting up a funding page. Until then, we appreciate your support. Be sure to come back soon :)</p>
     </div>
   )
 }

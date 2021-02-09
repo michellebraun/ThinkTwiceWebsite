@@ -1,7 +1,123 @@
+/* Styling for the repeated elements on the pages */
 .pageHeading {
-    font-size: 40px;
+    font-size: 44px;
     font-weight: bold;
-    color: #489789;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    color: #01988F;
+    margin-top: 6vh;
+    margin-bottom: 4vh;
+}
+
+.bodyText {
+    font-size: medium;
+    padding-bottom: 1vh;
+}
+
+.bodyTextRanking {
+    font-size: medium;
+    margin-bottom: -10px;
+}
+
+.textHeading {
+    font-size: 21px;
+}
+
+.centredTextHeading {
+    font-size: 21px;
+    text-align: center;
+}
+
+.headshot {
+    width: 130px;
+    height: 150px;
+}
+
+/* Columns */
+.twoColumn {
+    float: left;
+    width: 46%;
+    margin-right: 4%;
+}
+
+.threeColumn {
+    float: left;
+    width: 33.33%;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Different Headings for the Categories */
+.transparency {
+    color: #D86A6A;
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+.envImpact {
+    color: #4DCE98;
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+.sustainEfforts {
+    color: #6C7DD7;
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+.ethicalLabour {
+    color: #EBD50E;
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+.recycledMat {
+    color: #D174AC;
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+.organicMat {
+    color: #4DCE98;
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+.plasticFree {
+    color: #6C7DD7;
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+/* Boxes */
+.box {
+    color: white;
+    padding: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 170px;
+    margin-top: 50px;
+}
+
+.pass {
+    color: #01988F;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: -10px;
+}
+
+.fail {
+    color: #D86A6A;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: -10px;
+}
+
+.redText {
+    padding: 30px;
+    color: #D86A6A;
 }

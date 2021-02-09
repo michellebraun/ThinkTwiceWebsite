@@ -8,6 +8,8 @@ import Toolbar from '@material-ui/core/Toolbar';
 import AppBar from '@material-ui/core/AppBar';
 import Typography from '@material-ui/core/Typography';
 import CssBaseline from '@material-ui/core/CssBaseline';
+import Button from '@material-ui/core/Button';
+import logoImage from '../assets/img/smallLogo.png';
 
 const pageNames = ['About Think Twice', 'The team behind Think Twice', 'Category Information', 'Ranking System Explained', 'More about Sustainability', 'Contact Us']
 const pageAddresses = ['about', 'team', 'categoryinfo', 'rankinginfo', 'sustainability', 'contact'];
@@ -19,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
   },
   appBar: {
+    backgroundColor: '#1C9988',
     zIndex: theme.zIndex.drawer + 1,
   },
   drawer: {
@@ -27,6 +30,8 @@ const useStyles = makeStyles((theme) => ({
   },
   drawerPaper: {
     width: drawerWidth,
+    borderColor: '#1C9988',
+    borderWidth: 3,
   },
   drawerContainer: {
     overflow: 'auto',
@@ -34,6 +39,21 @@ const useStyles = makeStyles((theme) => ({
   content: {
     flexGrow: 1,
     padding: theme.spacing(3),
+  },
+  listItem: {
+    textAlign: 'right',
+    marginTop: '3vh',
+  },
+  listText: {
+    fontSize: '20px',
+  },
+  donateButton: {
+    color: 'white',
+    backgroundColor: '#01988F',
+    paddingLeft: '10%',
+    paddingRight: '10%',
+    margin: '2vh',
+    marginTop: '16vh',
   },
 }));
 
@@ -43,12 +63,17 @@ function Navigation() {
   function handleClick(key) {
     window.location.href = `/${pageAddresses[key]}`;
   }
+  
+  function handleDonateClick() {
+    window.location.href = `/donate`;
+  }
 
   return (
     <div className={classes.root}>
       <CssBaseline />
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar>
+          <img src={logoImage} />
           <Typography variant="h6" noWrap>
             Learn More
           </Typography>
@@ -62,14 +87,17 @@ function Navigation() {
         }}
       >
         <Toolbar />
-        <div className={classes.drawerContainer}>
+        <div className={classes.drawerContainer} align='right'>
           <List>
             {pageNames.map((text, index) => (
-              <ListItem button key={index} onClick={() => handleClick(index)}>
-                <ListItemText primary={text} />
+              <ListItem button key={index} className={classes.listItem} onClick={() => handleClick(index)}>
+                <ListItemText primary={text} className={classes.listText}/>
               </ListItem>
             ))}
           </List>
+          <Button variant="contained" className={classes.donateButton} onClick={handleDonateClick}>
+            Donate :)
+          </Button>
         </div>
       </Drawer>
       <main>
