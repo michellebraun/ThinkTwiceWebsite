@@ -9,7 +9,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Typography from '@material-ui/core/Typography';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Button from '@material-ui/core/Button';
-import logoImage from '../assets/img/smallLogo.png';
+import logoImage from '../assets/img/bigLogo.png';
 
 const pageNames = ['About Think Twice', 'The team behind Think Twice', 'Category Information', 'Ranking System Explained', 'More about Sustainability', 'Contact Us']
 const pageAddresses = ['about', 'team', 'categoryinfo', 'rankinginfo', 'sustainability', 'contact'];
@@ -43,6 +43,9 @@ const useStyles = makeStyles((theme) => ({
   listItem: {
     textAlign: 'right',
     marginTop: '3vh',
+    '&:hover': {
+      backgroundColor: 'rgba(28, 153, 136, 0.3)',
+    },
   },
   listText: {
     fontSize: '20px',
@@ -54,6 +57,16 @@ const useStyles = makeStyles((theme) => ({
     paddingRight: '10%',
     margin: '2vh',
     marginTop: '16vh',
+    textTransform: 'none',
+    fontSize: '17px',
+    '&:hover': {
+      backgroundColor: 'rgba(28, 153, 136, 0.3)',
+    },
+  },
+  logo: {
+    width: '50px',
+    height: '50px',
+    marginRight: '2%',
   },
 }));
 
@@ -73,8 +86,8 @@ function Navigation() {
       <CssBaseline />
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar>
-          <img src={logoImage} />
-          <Typography variant="h6" noWrap>
+          <img src={logoImage} className={classes.logo} />
+          <Typography variant="h4" noWrap>
             Learn More
           </Typography>
         </Toolbar>
