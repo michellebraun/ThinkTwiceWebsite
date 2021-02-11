@@ -9,7 +9,7 @@ function Contact() {
       <Box className='pageHeading'>
         Contact Us
       </Box>
-      <p className='bodyText'>For any questions or concerns please feel free to email us at <b>thinktwice@gmail.com</b></p>
+      <p className='bodyText'>For any questions or concerns please feel free to email us at <b>thinktwice.eco@gmail.com</b></p>
       <br/>
       <p className='bodyText'>You can also visit us at our website at <b>thinktwice.eco</b></p>
     </div>

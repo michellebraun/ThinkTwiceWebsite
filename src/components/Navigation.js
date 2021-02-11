@@ -14,7 +14,7 @@ import logoImage from '../assets/img/bigLogo.png';
 const pageNames = ['About Think Twice', 'The team behind Think Twice', 'Category Information', 'Ranking System Explained', 'More about Sustainability', 'Contact Us']
 const pageAddresses = ['about', 'team', 'categoryinfo', 'rankinginfo', 'sustainability', 'contact'];
 
-const drawerWidth = 300;
+const drawerWidth = 320;
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -49,6 +49,7 @@ const useStyles = makeStyles((theme) => ({
   },
   listText: {
     fontSize: '20px',
+    marginRight: '20px',
   },
   donateButton: {
     color: 'white',
@@ -108,9 +109,11 @@ function Navigation() {
               </ListItem>
             ))}
           </List>
-          <Button variant="contained" className={classes.donateButton} onClick={handleDonateClick}>
-            Donate :)
-          </Button>
+          <div align='center'>
+            <Button variant="contained" className={classes.donateButton} onClick={handleDonateClick}>
+              Donate :)
+            </Button>
+          </div>
         </div>
       </Drawer>
       <main>

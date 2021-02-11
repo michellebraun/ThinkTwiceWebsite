@@ -12,6 +12,9 @@ import './App.css';
 
 function App() {
 
+  var title = document.querySelector('title');
+  title.innerText = 'Think Twice';
+
   return (
     <div className="App">
       <Navigation />
