@@ -51,19 +51,6 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '20px',
     marginRight: '20px',
   },
-  donateButton: {
-    color: 'white',
-    backgroundColor: '#01988F',
-    paddingLeft: '10%',
-    paddingRight: '10%',
-    margin: '2vh',
-    marginTop: '16vh',
-    textTransform: 'none',
-    fontSize: '17px',
-    '&:hover': {
-      backgroundColor: 'rgba(28, 153, 136, 0.3)',
-    },
-  },
   logo: {
     width: '50px',
     height: '50px',
@@ -109,11 +96,6 @@ function Navigation() {
               </ListItem>
             ))}
           </List>
-          <div align='center'>
-            <Button variant="contained" className={classes.donateButton} onClick={handleDonateClick}>
-              Donate :)
-            </Button>
-          </div>
         </div>
       </Drawer>
       <main>

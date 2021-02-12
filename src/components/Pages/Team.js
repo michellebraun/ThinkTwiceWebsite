@@ -33,11 +33,11 @@ function Team() {
       {/* Second Row */}
       <h3 className='centredTextHeading'>Design Team</h3>
       <div class='row' align='center'>
-        <div class='twoColumn'>
+        <div class='twoColBtwnLeft'>
           <img src={HeatherImg} className='headshot'/>
           <p className='bodyText'>Heather Tian</p>
         </div>
-        <div class='twoColumn'>
+        <div class='twoColBtwnRight'>
           <img src={SitaraImg} className='headshot'/>
           <p className='bodyText'>Sitara Visram</p>
         </div>

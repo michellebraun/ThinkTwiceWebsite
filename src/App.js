@@ -7,7 +7,6 @@ import CategoryInfo from './components/Pages/CategoryInfo';
 import RankingInfo from './components/Pages/RankingInfo';
 import Sustainability from './components/Pages/Sustainability';
 import Contact from './components/Pages/Contact';
-import Donate from './components/Pages/Donate';
 import './App.css';
 
 function App() {
@@ -29,7 +28,6 @@ function App() {
           <Route path="/rankingInfo"><RankingInfo /></Route>
           <Route path="/sustainability"><Sustainability /></Route>
           <Route path="/contact"><Contact /></Route>
-          <Route path="/donate"><Donate /></Route>
         </Switch>
       </Router>
     </div>
