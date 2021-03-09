@@ -17,14 +17,14 @@ function RankingInfo() {
         {/* PASS */}
         <div class='twoColumn'>
           <h3 className='pass'>PASS <img src={ThumbsUp}/></h3>
-          <p className='bodyTextRanking'><b>Brand -</b> The brand has a B+ ranking or higher in each category</p>
-          <p className='bodyTextRanking'><b>Product -</b> The product has a B+ ranking or higher in each category</p>
+          <p className='bodyTextRanking'><b>Brand -</b> The brand has a B- ranking or higher in each category</p>
+          <p className='bodyTextRanking'><b>Product -</b> The product has a B- ranking or higher in each category</p>
         </div>
         {/* FAIL */}
         <div class='twoColumn'>
           <h3 className='fail'>FAIL <img src={ThumbsDown}/></h3>
-          <p className='bodyTextRanking'><b>Brand -</b> The brand does not have a B+ ranking or higher in the failed category</p>
-          <p className='bodyTextRanking'><b>Product -</b> The product does not have a B+ ranking or higher in the failed category</p>
+          <p className='bodyTextRanking'><b>Brand -</b> The brand does not have a B- ranking or higher in the failed category</p>
+          <p className='bodyTextRanking'><b>Product -</b> The product does not have a B- ranking or higher in the failed category</p>
         </div>
       </div>
       
@@ -33,18 +33,18 @@ function RankingInfo() {
         {/* Sustainble */}
         <div class='twoColumn'>
           <Box className='box' style={{background: '#01988F'}}>
-            Sustainable
+            <b>Sustainable</b>
           </Box>
-          <p className='bodyTextRanking'><b>Brand -</b> The brand has a B+ ranking or higher in the failed category</p>
-          <p className='bodyTextRanking'><b>Product -</b> The product has a B+ ranking or higher for more than three categories</p>
+          <p className='bodyTextRanking'><b>Brand -</b> The brand has a B- ranking or higher in the failed category</p>
+          <p className='bodyTextRanking'><b>Product -</b> The product has a B- ranking or higher for more than three categories</p>
         </div>
         {/* Unsustainble */}
         <div class='twoColumn'>
           <Box className='box' style={{background: '#D86A6A'}}>
-            Unsustainable
+            <b>Unsustainable</b>
           </Box>
-          <p className='bodyTextRanking'><b>Brand -</b> The brand has a less than a B+ ranking for one or more categories</p>
-          <p className='bodyTextRanking'><b>Product -</b> The product has less than a B+ ranking for one or more categories</p>
+          <p className='bodyTextRanking'><b>Brand -</b> The brand has a less than a B- ranking for one or more categories</p>
+          <p className='bodyTextRanking'><b>Product -</b> The product has less than a B- ranking for one or more categories</p>
         </div>
       </div>
 

@@ -2,9 +2,9 @@
 .pageHeading {
     font-size: 44px;
     font-weight: bold;
-    color: #01988F;
-    margin-top: 6vh;
-    margin-bottom: 4vh;
+    color: #1c7399;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
 }
 
 .bodyText {
@@ -19,6 +19,7 @@
 
 .textHeading {
     font-size: 21px;
+    margin: 0;
 }
 
 .centredTextHeading {
@@ -28,16 +29,15 @@
 }
 
 .headshot {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
 }
 
 /* Columns */
 .twoColumn {
     float: left;
-    width: 46%;
-    margin-left: 2%;
-    margin-right: 2%;
+    width: 47%;
+    margin-right: calc(10px + 1vw);
 }
 
 .twoColBtwnLeft {
@@ -65,46 +65,26 @@
 }
 
 /* Different Headings for the Categories */
-.transparency {
-    color: #D86A6A;
+.transparency, .envImpact, .sustainEfforts, .ethicalLabour, .recycledMat, .organicMat, .plasticFree {
     font-size: 18px;
     margin-bottom: -10px;
+    font-weight: bold;
 }
 
-.envImpact {
-    color: #4DCE98;
-    font-size: 18px;
-    margin-bottom: -10px;
+.transparency, .recycledMat {
+    color: #931B46;
 }
 
-.sustainEfforts {
-    color: #6C7DD7;
-    font-size: 18px;
-    margin-bottom: -10px;
+.envImpact, .organicMat {
+    color: #1A535C;
+}
+
+.sustainEfforts, .plasticFree {
+    color: #6069B6;
 }
 
 .ethicalLabour {
-    color: #EBD50E;
-    font-size: 18px;
-    margin-bottom: -10px;
-}
-
-.recycledMat {
-    color: #D174AC;
-    font-size: 18px;
-    margin-bottom: -10px;
-}
-
-.organicMat {
-    color: #4DCE98;
-    font-size: 18px;
-    margin-bottom: -10px;
-}
-
-.plasticFree {
-    color: #6C7DD7;
-    font-size: 18px;
-    margin-bottom: -10px;
+    color: #7F6A93;
 }
 
 /* Boxes */
@@ -132,7 +112,16 @@
 }
 
 .redText {
+    font-size: 16px;
     margin-top: 10vh;
     text-align: center;
     color: #D86A6A;
+}
+
+a:visited, a:hover, a:focus, a:active { 
+    text-decoration: none; 
+    color: #1c7399;
+}
+a {
+    color: #1c7399;
 }

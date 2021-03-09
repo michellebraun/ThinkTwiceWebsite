@@ -11,7 +11,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Button from '@material-ui/core/Button';
 import logoImage from '../assets/img/bigLogo.png';
 
-const pageNames = ['About Think Twice', 'The team behind Think Twice', 'Category Information', 'Ranking System Explained', 'More about Sustainability', 'Contact Us']
+const pageNames = ['About Think Twice', 'The Team Behind Think Twice', 'Category Information', 'Ranking System Explained', 'More about Sustainability', 'Contact Us']
 const pageAddresses = ['about', 'team', 'categoryinfo', 'rankinginfo', 'sustainability', 'contact'];
 
 const drawerWidth = 320;
@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
   },
   appBar: {
-    backgroundColor: '#1C9988',
+    backgroundColor: '#1c7399',
     zIndex: theme.zIndex.drawer + 1,
   },
   drawer: {
@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
   },
   drawerPaper: {
     width: drawerWidth,
-    borderColor: '#1C9988',
+    borderColor: '#1c7399',
     borderWidth: 3,
   },
   drawerContainer: {
@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'right',
     marginTop: '3vh',
     '&:hover': {
-      backgroundColor: 'rgba(28, 153, 136, 0.3)',
+      backgroundColor: 'rgba(28, 115, 153, 0.3)',
     },
   },
   listText: {

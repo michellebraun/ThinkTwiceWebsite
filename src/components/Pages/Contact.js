@@ -9,9 +9,9 @@ function Contact() {
       <Box className='pageHeading'>
         Contact Us
       </Box>
-      <p className='bodyText'>For any questions or concerns please feel free to email us at <b>thinktwice.eco@gmail.com</b></p>
+      <p className='bodyText'>For any questions or concerns please feel free to email us at <b><a target="_blank" href="mailto:thinktwice.eco@gmail.com" rel="noopener noreferrer">thinktwice.eco@gmail.com</a></b></p>
       <br/>
-      <p className='bodyText'>You can also visit us at our website at <b>thinktwice.eco</b></p>
+      <p className='bodyText'>You can also visit us at our website at <b><a target="_blank" href="http://xenodochial-rosalind-8f6d27.netlify.app/" rel="noopener noreferrer">thinktwice.eco</a></b></p>
     </div>
   )
 }

@@ -1,10 +1,10 @@
 import React from 'react';
 import Box from '@material-ui/core/Box';
-import AlisonImg from '../../assets/img/headshots/alisonWong.png'
+import AlisonImg from '../../assets/img/headshots/alisonWong.jpg'
 import LorraineImg from '../../assets/img/headshots/lorraineLi.jpg'
 import MichelleImg from '../../assets/img/headshots/michelleBraun.jpg'
 import HeatherImg from '../../assets/img/headshots/heatherTian.jpg'
-import SitaraImg from '../../assets/img/headshots/sitaraVisram.png'
+import SitaraImg from '../../assets/img/headshots/sitaraVisram.jpg'
 import './Pages.css';
 
 function Team() {
