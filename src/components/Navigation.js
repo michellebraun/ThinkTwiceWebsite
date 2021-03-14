@@ -8,11 +8,10 @@ import Toolbar from '@material-ui/core/Toolbar';
 import AppBar from '@material-ui/core/AppBar';
 import Typography from '@material-ui/core/Typography';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import Button from '@material-ui/core/Button';
 import logoImage from '../assets/img/bigLogo.png';
 
-const pageNames = ['About Think Twice', 'The Team Behind Think Twice', 'Category Information', 'Ranking System Explained', 'More about Sustainability', 'Contact Us']
-const pageAddresses = ['about', 'team', 'categoryinfo', 'rankinginfo', 'sustainability', 'contact'];
+const pageNames = ['About Think Twice', 'Ranking System']
+const pageAddresses = ['about', 'rankingSystem'];
 
 const drawerWidth = 320;
 
@@ -64,10 +63,6 @@ function Navigation() {
   function handleClick(key) {
     window.location.href = `/${pageAddresses[key]}`;
   }
-  
-  function handleDonateClick() {
-    window.location.href = `/donate`;
-  }
 
   return (
     <div className={classes.root}>
@@ -76,7 +71,7 @@ function Navigation() {
         <Toolbar>
           <img src={logoImage} className={classes.logo} />
           <Typography variant="h4" noWrap>
-            Learn More
+            Learn More About Think Twice
           </Typography>
         </Toolbar>
       </AppBar>
