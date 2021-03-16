@@ -18,13 +18,13 @@ function RankingInfo() {
         <div class='twoColumn'>
           <h3 className='pass'>PASS <img src={ThumbsUp}/></h3>
           <p className='bodyTextRanking'><b>Brand -</b> The brand has a B- ranking or higher in each category</p>
-          <p className='bodyTextRanking'><b>Product -</b> The product has a B- ranking or higher in each category</p>
+          <p className='bodyTextRanking'><b>Product -</b> The product has met the category benchmark</p>
         </div>
         {/* FAIL */}
         <div class='twoColumn'>
           <h3 className='fail'>FAIL <img src={ThumbsDown}/></h3>
           <p className='bodyTextRanking'><b>Brand -</b> The brand does not have a B- ranking or higher in the failed category</p>
-          <p className='bodyTextRanking'><b>Product -</b> The product does not have a B- ranking or higher in the failed category</p>
+          <p className='bodyTextRanking'><b>Product -</b> The product has not met the category benchmark</p>
         </div>
       </div>
       
@@ -36,7 +36,7 @@ function RankingInfo() {
             <b>Sustainable</b>
           </Box>
           <p className='bodyTextRanking'><b>Brand -</b> The brand has a B- ranking or higher in the failed category</p>
-          <p className='bodyTextRanking'><b>Product -</b> The product has a B- ranking or higher for more than three categories</p>
+          <p className='bodyTextRanking'><b>Product -</b> The product has met at least 2/3 of the category benchmarks</p>
         </div>
         {/* Unsustainble */}
         <div class='twoColumn'>
@@ -44,7 +44,7 @@ function RankingInfo() {
             <b>Unsustainable</b>
           </Box>
           <p className='bodyTextRanking'><b>Brand -</b> The brand has a less than a B- ranking for one or more categories</p>
-          <p className='bodyTextRanking'><b>Product -</b> The product has less than a B- ranking for one or more categories</p>
+          <p className='bodyTextRanking'><b>Product -</b> The product has not met 2/3 of the category benchmarks</p>
         </div>
       </div>
 
