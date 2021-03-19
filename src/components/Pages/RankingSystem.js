@@ -44,7 +44,7 @@ function RankingInfo() {
             <b>Unsustainable</b>
           </Box>
           <p className='bodyTextRanking'><b>Brand -</b> The brand has a less than a B- ranking for one or more categories</p>
-          <p className='bodyTextRanking'><b>Product -</b> The product has not met any of the category benchmarks</p>
+          <p className='bodyTextRanking'><b>Product -</b> The product has not met at least 1/3 of the category benchmarks</p>
         </div>
       </div>
 
