@@ -72,7 +72,7 @@ function RankingInfo() {
           <p className='recycledMat'>Recycled Material</p>
           <p className='bodyText'>The material is reused from previous items. A pass for this category means the product's material composition is at least 20% recycled.</p>
           <p className='organicMat'>Organic Material</p>
-          <p className='bodyText'>A list of organic material is compared with the material used in the product. A pass for this category means the product's material composition is at least 95% organic.</p>
+          <p className='bodyText'>A list of organic materials is compared with the material used in the product. A pass for this category means the product's material composition is at least 95% organic.</p>
           <p className='plasticFree'>Plastic Free</p>
           <p className='bodyText'>Materials are compared with a list of plastics that could be contained in the material. A pass for this category means there is no plastic in the product's material composition.</p>
         </div>
