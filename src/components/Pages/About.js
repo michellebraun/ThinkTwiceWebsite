@@ -12,7 +12,12 @@ function About() {
   return (
     <div>
       <Box className='pageHeading'>
-        About Think Twice
+        Think Twice Sustainability Definition
+      </Box>
+      <p className='bodyText'>The definition of sustainability used for Think Twice includes a clothing brand's environmental, social, and ethical efforts as a company. Their environmental efforts are broken down by analyzing the environmental impact of the company and the material composition of items being sold. The material composition of items being sold must meet benchmarks of having either 20% recycled materials, 95% organic materials, or be plastic free. The social efforts are defined by the company's transparency on their processes and their sustainable efforts. The ethical efforts are seen through the company's worker empowerment.</p>
+
+      <Box className='pageHeading'>
+        The Fashion Industry
       </Box>
       <p className='bodyText'>Have you ever thrown out a piece of clothing because it had a hole in it? Have you thought about how these pieces of clothing add up over time? What about where all this goes when you throw it away?</p>
       <p className='bodyText'>This is what drives the Fashion industry which is the second most polluting industry in the world. It contributes 8-10% of the global carbon emissions, which is more than all international flights and maritime shipping COMBINED!</p>

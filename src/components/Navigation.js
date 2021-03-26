@@ -10,7 +10,7 @@ import Typography from '@material-ui/core/Typography';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import logoImage from '../assets/img/bigLogo.png';
 
-const pageNames = ['About Think Twice', 'Ranking System']
+const pageNames = ['What is Sustainability to Us?', 'Ranking System']
 const pageAddresses = ['about', 'rankingSystem'];
 
 const drawerWidth = 320;

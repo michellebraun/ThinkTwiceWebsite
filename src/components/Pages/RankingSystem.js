@@ -90,6 +90,16 @@ function RankingInfo() {
         <h3 className='textHeading'>Fashion Transparency Index 2020</h3>
       </a>
       <p className='bodyText'>Ratings for brands in terms of how much information they disclose about policies and behaviours.</p>
+      <br/>
+      <a target="_blank" href="https://textileexchange.org/wp-content/uploads/2020/06/TE-401-V1.0-Supplier-Certification-Toolkit.pdf">
+        <h3 className='textHeading'>Textile Exchange Standards 2020</h3>
+      </a>
+      <p className='bodyText'>This report outlines the standard for clothing to be classified as recycled. In order for the clothing piece to be deemed recycled, 20% of the material used in the item must be recycled.</p>
+      <br/>
+      <a target="_blank" href="https://textileexchange.org/wp-content/uploads/2020/06/Textile-Exchange_Preferred-Fiber-Material-Market-Report_2020.pdf">
+        <h3 className='textHeading'>Preferred Fiber & Materials Report 2020</h3>
+      </a>
+      <p className='bodyText'>This report outlines the standard for clothing to be classified as organic. In order for the clothing piece to be deemed organic, 95% of the material used in the item must be organic.</p>
     </div>
   )
 }
